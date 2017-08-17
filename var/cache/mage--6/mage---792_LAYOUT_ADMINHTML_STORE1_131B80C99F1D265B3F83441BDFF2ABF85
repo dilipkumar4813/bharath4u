@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502891395;s:6:"expire";i:9999999999;s:4:"tags";s:53:"792_ADMIN_LOGIN,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502954599;s:6:"expire";i:9999999999;s:4:"tags";s:53:"792_ADMIN_LOGIN,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <container name="root" htmlTag="section" htmlClass="page-wrapper">
    <container name="after.body.start" as="after.body.start" label="Page Top" before="-"/>
    <container name="login.header" htmlTag="header" htmlClass="login-header"/>
