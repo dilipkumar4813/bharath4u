@@ -1,0 +1,18 @@
+{
+    "name": "solwin/outofstock",
+    "description": "Solwin out of stock Label on outofstock Products",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Solwin\\Outofstock\\": ""
+        }
+    }
+}

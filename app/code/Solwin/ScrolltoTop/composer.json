@@ -1,0 +1,23 @@
+{
+    "name": "solwin/module-scrolltotop",
+    "description": "N/A",
+    "require": {
+      "php": "~5.5.0|~5.6.0|~7.0.0",
+      "magento/module-media-storage": "0.74.0-beta4",
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Solwin/ScrolltoTop"
+            ]
+        ]
+    }
+}

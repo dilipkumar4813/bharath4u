@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Solwin_Cpanel::view" title="Theme Cpanel" module="Solwin_Cpanel" sortOrder="60" resource="Solwin_Cpanel::cpanel"/>
+        <add id="Solwin_Cpanel::cpanelsetting" title="Configuration" module="Solwin_Cpanel" sortOrder="20" parent="Solwin_Cpanel::extension" action="adminhtml/system_config/edit/section/cpanelsection" resource="Solwin_Cpanel::cpanel"/>
+        <add id="Solwin_Cpanel::extension" title="Theme Cpanel" module="Solwin_Cpanel" sortOrder="5" parent="Solwin_Cpanel::view" resource="Solwin_Cpanel::view" />
+        
+        <add id="Solwin_ScrolltoTop::scrollsection" title="Configuration" module="Solwin_ScrolltoTop" sortOrder="20" parent="Solwin_ScrolltoTop::extension" action="adminhtml/system_config/edit/section/scrollsection" resource="Solwin_ScrolltoTop::scrolltotop"/>
+        <add id="Solwin_ScrolltoTop::extension" title="Scroll to Top" module="Solwin_ScrolltoTop" sortOrder="40" parent="Solwin_Cpanel::view" resource="Solwin_Cpanel::view" />
+        
+        <add id="Solwin_Soldout::soldoutlabel" title="Configuration" module="Solwin_Soldout" sortOrder="30" parent="Solwin_Soldout::extension" action="adminhtml/system_config/edit/section/outofstock_product" resource="Solwin_Soldout::soldoutlabel"/>
+        <add id="Solwin_Soldout::extension" title="Sold Out Label" module="Solwin_Soldout" sortOrder="50" parent="Solwin_Cpanel::view" resource="Solwin_Cpanel::view" />
+    </menu>
+</config>

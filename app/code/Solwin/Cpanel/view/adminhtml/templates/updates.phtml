@@ -1,0 +1,66 @@
+<div class="container-update-solwin">
+    <?php
+    $file = 'https://www.solwininfotech.com/documents/assets/latest_extensions.xml';
+    $feedurl = 'https://www.solwininfotech.com/feed/';
+    define('LATEST_PRODUCT_FILE', $file);
+    define('LATEST_FEED_URL', $feedurl);
+
+    echo '<div class="display-product">';
+
+
+    $ch = curl_init();
+    $timeout = 5;
+    curl_setopt($ch, CURLOPT_URL, LATEST_PRODUCT_FILE);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+    $response = curl_exec($ch);
+    $errmsg = curl_error($ch);
+    $cInfo = curl_getinfo($ch);
+    curl_close($ch);
+
+    if ($errmsg == '') {
+        $xml = simplexml_load_string($response);
+        $title = $xml->item->name;
+        
+        $sectiontitle = $xml->item->sectiontitle;
+        
+        $thumbnail = $xml->item->img;
+        $link = $xml->item->link;
+        $allProducttext = $xml->item->viewalltext;
+        $allProductlink = $xml->item->viewalllink;
+
+        $viewexttext = $xml->item->viewexttext;
+        $viewextlink = $xml->item->viewextlink;
+        $viewthemetext = $xml->item->viewthemetext;
+        $viewthemelink = $xml->item->viewthemelink;
+
+        $moretext = $xml->item->moretext;
+        $needsupporttext = $xml->item->needsupporttext;
+        $needsupportlink = $xml->item->needsupportlink;
+        $customservicetext = $xml->item->customservicetext;
+        $customservicelink = $xml->item->customservicelink;
+        $joinproductclubtext = $xml->item->joinproductclubtext;
+        $joinproductclublink = $xml->item->joinproductclublink;
+        echo '<div class="product-detail"><h2><strong>' . $sectiontitle . '</strong></h2><hr class="page-separator">'
+        . '<div class="product-name"><a href="' . $link . '" target="_blank">'
+        . '<img width="400" alt="' . $title . '" src="' . $thumbnail . '"> </a>'
+        . '<div class="clear-fix"></div>'
+        . '<a class="product-name-link" href="' . $link . '" target="_blank">' . $title . '</a>'
+        . '<p><a href="' . $viewextlink . '" target="_blank" class="action-secondary">' . $viewexttext . ' &RightArrow;</a><span>&nbsp;</span>'
+        . '<a href="' . $viewthemelink . '" target="_blank" class="action-secondary">' . $viewthemetext . ' &RightArrow;</a></p>'
+        . '<p><strong>' . $moretext . '</strong></p>'
+        . '<ul class="more-list">'
+        . '<li><a href="' . $needsupportlink . '" target="_blank">' . $needsupporttext . '</a></li>'
+        . '<li><a href="' . $customservicelink . '" target="_blank">' . $customservicetext . '</a></li>'
+        . '<li><a href="' . $joinproductclublink . '" target="_blank">' . $joinproductclubtext . '</a></li>'
+        . '</ul>'
+        . '</div>';
+
+        echo '</div></div><div class="clear"></div>';
+    } else {
+        echo $errmsg;
+    }
+    ?>
+</div>
