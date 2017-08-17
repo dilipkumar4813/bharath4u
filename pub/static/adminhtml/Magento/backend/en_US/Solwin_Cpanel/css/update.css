@@ -1,0 +1,19 @@
+.clear-fix {
+    clear: both;
+}
+.product-name-link {
+    display: block;
+    margin: 10px 0;
+}
+.more-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.more-list li {
+    display: block;
+    margin-bottom: 5px;
+}
+.product-name {
+    float: left;
+}

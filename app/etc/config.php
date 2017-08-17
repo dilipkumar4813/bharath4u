@@ -105,5 +105,8 @@ return array (
     'Magento_Weee' => 1,
     'Magento_CatalogWidget' => 1,
     'Magento_Wishlist' => 1,
+    'Solwin_Cpanel' => 1,
+    'Solwin_ScrolltoTop' => 1,
+    'Solwin_Soldout' => 1,
   ),
 );

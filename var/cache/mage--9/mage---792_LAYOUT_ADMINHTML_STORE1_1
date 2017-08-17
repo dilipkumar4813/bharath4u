@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502954599;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502957429;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_system_design_theme_block"><body>
    <referenceBlock name="design_theme">
@@ -7278,7 +7278,16 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502954599;s:6:"expire";i:9999999999;s:4:"t
    </block>
    <block class="Magento\Catalog\Block\Adminhtml\Product\Composite\Configure" template="Magento_Catalog::catalog/product/composite/configure.phtml" name="configure.popup"/>
 </container>
-</layout><handle id="default"><head>
+</layout><handle id="adminhtml_dashboard_index"><update handle="styles"/>
+<head>
+   <css src="Solwin_Cpanel::css/update.css"/>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="Solwin\Cpanel\Block\Update" name="dashboard_test" template="Solwin_Cpanel::updates.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><head>
    <css src="jquery/jstree/themes/default/style.css"/>
    <css src="css/styles-old.css"/>
    <css src="css/styles.css"/>

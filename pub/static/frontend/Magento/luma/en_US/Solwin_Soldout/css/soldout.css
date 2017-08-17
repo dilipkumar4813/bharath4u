@@ -1,0 +1,36 @@
+.products-list .product.photo.product-item-photo {
+  position: relative;
+  display: block;
+}
+.products-grid .product.photo.product-item-photo {
+  position: relative;
+  display: block;
+}
+
+.out-of-stock-wrapper {
+  position: absolute;
+  z-index: 3;
+  display: block;
+}
+.ptop {
+    top: 0;
+}
+.pleft {
+    left: 0;
+}
+.pright {
+    right: 0;
+}
+.pcenter {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.pmiddle {
+    top: 50%;
+}
+.pbottom {
+    bottom: 0;
+}
+
