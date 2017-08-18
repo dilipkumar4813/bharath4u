@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1502957433;s:6:"expire";i:9999999999;s:4:"tags";s:64:"792_CATALOG_PRODUCT_PRICES,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503053432;s:6:"expire";i:9999999999;s:4:"tags";s:64:"792_CATALOG_PRODUCT_PRICES,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <block class="Magento\Framework\Pricing\Render\RendererPool" name="render.product.prices">
    <arguments>
       <argument name="default" xsi:type="array">
