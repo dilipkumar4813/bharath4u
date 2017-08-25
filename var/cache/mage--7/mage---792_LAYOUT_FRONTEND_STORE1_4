@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503053432;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503639134;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -5705,7 +5705,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503053432;s:6:"expire";i:9999999999;s:4:"t
    <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
    <css src="css/print.css" media="print"/>
 </head>
-</handle><handle id="default"><body>
+</handle><handle id="default-on-25-08"><body>
    <referenceContainer name="header.container">
       <container name="header.panel.wrapper" htmlClass="panel wrapper" htmlTag="div" before="-"/>
    </referenceContainer>
@@ -5788,6 +5788,53 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503053432;s:6:"expire";i:9999999999;s:4:"t
    </referenceContainer>
    <referenceBlock name="report.bugs" remove="true"/>
    <referenceBlock name="footer" remove="true"/>
+</body>
+</handle><handle id="default"><body>
+   <referenceContainer name="header.panel">
+      <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+         <arguments>
+            <argument name="css_class" xsi:type="string">header links</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
+   <referenceBlock name="logo">
+      <arguments>
+         <argument name="logo_img_width" xsi:type="number">148</argument>
+         <argument name="logo_img_height" xsi:type="number">43</argument>
+      </arguments>
+   </referenceBlock>
+   <referenceContainer name="home-container">
+      <block class="Magento\Cms\Block\Block" name="home_advertisement1">
+         <arguments>
+            <argument name="block_id" xsi:type="string">home_advertisement1</argument>
+         </arguments>
+      </block>
+      <block class="Solwin\Ourbrand\Block\Home\Ourbrand" name="ourbrand_data_home" template="Solwin_Ourbrand::ourbrand_home.phtml"/>
+   </referenceContainer>
+   <referenceContainer name="footer">
+      <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
+   </referenceContainer>
+   <referenceContainer name="footer-container">
+      <block class="Magento\Framework\View\Element\Template" name="cpanel.footer" as="cpanel footer" before="-" template="Magento_Theme::html/footer/footer.phtml">
+         <block class="Magento\Framework\View\Element\Html\Links" name="footer_links">
+            <arguments>
+               <argument name="css_class" xsi:type="string">footer links</argument>
+            </arguments>
+         </block>
+         <block class="Magento\Theme\Block\Html\Header\Logo" name="footer_logo">
+            <arguments>
+               <argument name="logo_img_width" xsi:type="number">189</argument>
+               <argument name="logo_img_height" xsi:type="number">64</argument>
+            </arguments>
+         </block>
+      </block>
+   </referenceContainer>
+   <referenceContainer name="footer-botttom">
+      <block class="Magento\Theme\Block\Html\Footer" name="copyright" template="html/copyright.phtml"/>
+      <block class="Magento\Framework\View\Element\Template" name="report.bugs" template="Magento_Theme::html/bugreport.phtml"/>
+   </referenceContainer>
+   <referenceBlock name="report.bugs" remove="true"/>
+   <move element="copyright" destination="before.body.end"/>
 </body>
 </handle><handle id="default_head_blocks"><head>
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
