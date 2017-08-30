@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503639135;s:6:"expire";i:9999999999;s:4:"tags";s:115:"792_DEFAULT,792_CMS_INDEX_INDEX,792_CMS_PAGE_VIEW,792_CMS_INDEX_INDEX_ID_HOME,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504014584;s:6:"expire";i:9999999999;s:4:"tags";s:115:"792_DEFAULT,792_CMS_INDEX_INDEX,792_CMS_PAGE_VIEW,792_CMS_INDEX_INDEX_ID_HOME,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <body>
    <referenceContainer name="header.panel">
       <block class="Magento\Directory\Block\Currency" name="currency" before="store_language" template="currency.phtml"/>
@@ -601,6 +601,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503639135;s:6:"expire";i:9999999999;s:4:"t
 </body>
 <body>
    <referenceContainer name="header.panel">
+      <block class="Magento\Framework\View\Element\Template" name="cpanel.header.notification" as="cpanel header notification" before="-" template="Magento_Theme::html/header/notification.phtml"/>
+   </referenceContainer>
+   <referenceContainer name="header.panel">
       <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
          <arguments>
             <argument name="css_class" xsi:type="string">header links</argument>
@@ -613,24 +616,17 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503639135;s:6:"expire";i:9999999999;s:4:"t
          <argument name="logo_img_height" xsi:type="number">43</argument>
       </arguments>
    </referenceBlock>
-   <referenceContainer name="home-container">
-      <block class="Magento\Cms\Block\Block" name="home_advertisement1">
-         <arguments>
-            <argument name="block_id" xsi:type="string">home_advertisement1</argument>
-         </arguments>
-      </block>
-      <block class="Solwin\Ourbrand\Block\Home\Ourbrand" name="ourbrand_data_home" template="Solwin_Ourbrand::ourbrand_home.phtml"/>
-   </referenceContainer>
    <referenceContainer name="footer">
       <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
    </referenceContainer>
-   <referenceContainer name="footer-container">
-      <block class="Magento\Framework\View\Element\Template" name="cpanel.footer" as="cpanel footer" before="-" template="Magento_Theme::html/footer/footer.phtml">
+   <referenceContainer name="footer-top">
+      <block class="Magento\Framework\View\Element\Template" name="cpanel.footer" as="cpanel footer" after="form.subscribe" before="-" template="Magento_Theme::html/footer/footer.phtml">
          <block class="Magento\Framework\View\Element\Html\Links" name="footer_links">
             <arguments>
                <argument name="css_class" xsi:type="string">footer links</argument>
             </arguments>
          </block>
+         <block class="Magento\Newsletter\Block\Subscribe" name="footer.newsletter" template="subscribe.phtml"/>
          <block class="Magento\Theme\Block\Html\Header\Logo" name="footer_logo">
             <arguments>
                <argument name="logo_img_width" xsi:type="number">189</argument>
@@ -639,12 +635,12 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1503639135;s:6:"expire";i:9999999999;s:4:"t
          </block>
       </block>
    </referenceContainer>
-   <referenceContainer name="footer-botttom">
-      <block class="Magento\Theme\Block\Html\Footer" name="copyright" template="html/copyright.phtml"/>
+   <referenceContainer name="footer-top">
+      <block class="Magento\Theme\Block\Html\Footer" name="copyright" after="cpanel.footer" template="html/copyright.phtml"/>
       <block class="Magento\Framework\View\Element\Template" name="report.bugs" template="Magento_Theme::html/bugreport.phtml"/>
    </referenceContainer>
    <referenceBlock name="report.bugs" remove="true"/>
-   <move element="copyright" destination="before.body.end"/>
+   <referenceBlock name="footer" remove="true"/>
 </body>
 <body>
    <referenceBlock name="header.links">
