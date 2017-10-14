@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504014581;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_CONFIG_SCOPES,792_CONFIG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504859681;s:6:"expire";i:9999999999;s:4:"tags";s:37:"792_CONFIG_SCOPES,792_CONFIG,792_MAGE";}
 a:3:{s:7:"default";a:43:{s:6:"design";a:8:{s:10:"pagination";a:2:{s:14:"list_allow_all";s:1:"1";s:16:"pagination_frame";s:1:"5";}s:14:"invalid_caches";a:4:{s:10:"block_html";N;s:6:"layout";N;s:9:"translate";N;s:9:"full_page";N;}s:4:"head";a:6:{s:13:"default_title";s:16:"Magento Commerce";s:19:"default_description";s:19:"Default Description";s:16:"default_keywords";s:27:"Magento, Varien, E-commerce";s:18:"default_media_type";s:9:"text/html";s:15:"default_charset";s:5:"utf-8";s:10:"demonotice";s:1:"0";}s:20:"search_engine_robots";a:2:{s:14:"default_robots";s:12:"INDEX,FOLLOW";s:27:"default_custom_instructions";s:297:"
 User-agent: *
 Disallow: /index.php/
@@ -386,15 +386,50 @@ Disallow: /customer/
 Disallow: /sendfriend/
 Disallow: /review/
 Disallow: /*SID=
-                    ";}s:6:"header";a:5:{s:8:"logo_alt";s:9:"bharath4u";s:7:"welcome";s:28:"Welcome to your Indian store";s:10:"logo_width";s:3:"270";s:11:"logo_height";s:2:"69";s:8:"logo_src";s:30:"stores/1/bharath4u-tlogo-c.png";}s:6:"footer";a:2:{s:9:"copyright";s:49:"Copyright © 2017 Bharath4u. All rights reserved.";s:15:"absolute_footer";s:500:"<!--Start of Zendesk Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="https://v2.zopim.com/?53q5HgnZKs0hA9oUYCiaQFqJo2DmhyAL";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+                    ";}s:6:"header";a:5:{s:8:"logo_alt";s:9:"bharath4u";s:7:"welcome";s:28:"Welcome to your Indian store";s:10:"logo_width";s:3:"270";s:11:"logo_height";s:2:"69";s:8:"logo_src";s:30:"stores/1/bharath4u-tlogo-c.png";}s:6:"footer";a:2:{s:9:"copyright";s:49:"Copyright © 2017 Bharath4u. All rights reserved.";s:15:"absolute_footer";s:1524:"<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"92fec5d457cf545e6df7da5506f226de93a82f22c82a63ee6dd3fa5d9a99853f", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
-<!--End of Zendesk Chat Script-->";}s:9:"watermark";a:12:{s:14:"image_position";s:7:"stretch";s:20:"small_image_position";s:7:"stretch";s:18:"thumbnail_position";s:7:"stretch";s:21:"swatch_image_position";s:7:"stretch";s:10:"image_size";N;s:18:"image_imageOpacity";N;s:16:"small_image_size";N;s:24:"small_image_imageOpacity";N;s:14:"thumbnail_size";N;s:22:"thumbnail_imageOpacity";N;s:17:"swatch_image_size";N;s:25:"swatch_image_imageOpacity";N;}s:5:"email";a:5:{s:15:"header_template";s:28:"design_email_header_template";s:15:"footer_template";s:28:"design_email_footer_template";s:8:"logo_alt";N;s:10:"logo_width";N;s:11:"logo_height";N;}s:5:"theme";a:1:{s:8:"theme_id";s:1:"4";}}s:3:"dev";a:10:{s:5:"debug";a:1:{s:8:"profiler";s:1:"0";}s:2:"js";a:6:{s:11:"merge_files";s:1:"0";s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
+
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"92fec5d457cf545e6df7da5506f226de93a82f22c82a63ee6dd3fa5d9a99853f", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+
+<style>
+.header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a:visited, .header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a:active{
+color:#000
+}
+
+.header-notification{
+color:#000;
+}
+
+.header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart .text{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart .counter.qty{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart:before{
+color:#000;
+}
+
+.page-header {
+background:#ffffff;
+}
+
+input #search{
+color:black;
+}
+</style>";}s:9:"watermark";a:12:{s:14:"image_position";s:7:"stretch";s:20:"small_image_position";s:7:"stretch";s:18:"thumbnail_position";s:7:"stretch";s:21:"swatch_image_position";s:7:"stretch";s:10:"image_size";N;s:18:"image_imageOpacity";N;s:16:"small_image_size";N;s:24:"small_image_imageOpacity";N;s:14:"thumbnail_size";N;s:22:"thumbnail_imageOpacity";N;s:17:"swatch_image_size";N;s:25:"swatch_image_imageOpacity";N;}s:5:"email";a:5:{s:15:"header_template";s:28:"design_email_header_template";s:15:"footer_template";s:28:"design_email_footer_template";s:8:"logo_alt";N;s:10:"logo_width";N;s:11:"logo_height";N;}s:5:"theme";a:1:{s:8:"theme_id";s:1:"4";}}s:3:"dev";a:10:{s:5:"debug";a:1:{s:8:"profiler";s:1:"0";}s:2:"js";a:6:{s:11:"merge_files";s:1:"0";s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
                     /tiny_mce/
                 ";s:23:"session_storage_logging";s:1:"0";s:19:"session_storage_key";s:16:"collected_errors";s:18:"translate_strategy";s:10:"dictionary";}s:3:"css";a:2:{s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
                     /tiny_mce/
@@ -447,15 +482,50 @@ Disallow: /customer/
 Disallow: /sendfriend/
 Disallow: /review/
 Disallow: /*SID=
-                    ";}s:6:"header";a:5:{s:8:"logo_alt";s:9:"bharath4u";s:7:"welcome";s:28:"Welcome to your Indian store";s:10:"logo_width";s:3:"270";s:11:"logo_height";s:2:"69";s:8:"logo_src";s:30:"stores/1/bharath4u-tlogo-c.png";}s:6:"footer";a:2:{s:9:"copyright";s:49:"Copyright © 2017 Bharath4u. All rights reserved.";s:15:"absolute_footer";s:500:"<!--Start of Zendesk Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="https://v2.zopim.com/?53q5HgnZKs0hA9oUYCiaQFqJo2DmhyAL";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+                    ";}s:6:"header";a:5:{s:8:"logo_alt";s:9:"bharath4u";s:7:"welcome";s:28:"Welcome to your Indian store";s:10:"logo_width";s:3:"270";s:11:"logo_height";s:2:"69";s:8:"logo_src";s:30:"stores/1/bharath4u-tlogo-c.png";}s:6:"footer";a:2:{s:9:"copyright";s:49:"Copyright © 2017 Bharath4u. All rights reserved.";s:15:"absolute_footer";s:1524:"<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"92fec5d457cf545e6df7da5506f226de93a82f22c82a63ee6dd3fa5d9a99853f", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
-<!--End of Zendesk Chat Script-->";}s:9:"watermark";a:12:{s:14:"image_position";s:7:"stretch";s:20:"small_image_position";s:7:"stretch";s:18:"thumbnail_position";s:7:"stretch";s:21:"swatch_image_position";s:7:"stretch";s:10:"image_size";N;s:18:"image_imageOpacity";N;s:16:"small_image_size";N;s:24:"small_image_imageOpacity";N;s:14:"thumbnail_size";N;s:22:"thumbnail_imageOpacity";N;s:17:"swatch_image_size";N;s:25:"swatch_image_imageOpacity";N;}s:5:"email";a:5:{s:15:"header_template";s:28:"design_email_header_template";s:15:"footer_template";s:28:"design_email_footer_template";s:8:"logo_alt";N;s:10:"logo_width";N;s:11:"logo_height";N;}s:5:"theme";a:1:{s:8:"theme_id";s:1:"4";}}s:3:"dev";a:10:{s:5:"debug";a:1:{s:8:"profiler";s:1:"0";}s:2:"js";a:6:{s:11:"merge_files";s:1:"0";s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
+
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"92fec5d457cf545e6df7da5506f226de93a82f22c82a63ee6dd3fa5d9a99853f", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+
+<style>
+.header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a:visited, .header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a:active{
+color:#000
+}
+
+.header-notification{
+color:#000;
+}
+
+.header.panel>.header.links>li.welcome, .header.panel>.header.links>li>a{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart .text{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart .counter.qty{
+color:#000;
+}
+
+.minicart-wrapper .action.showcart:before{
+color:#000;
+}
+
+.page-header {
+background:#ffffff;
+}
+
+input #search{
+color:black;
+}
+</style>";}s:9:"watermark";a:12:{s:14:"image_position";s:7:"stretch";s:20:"small_image_position";s:7:"stretch";s:18:"thumbnail_position";s:7:"stretch";s:21:"swatch_image_position";s:7:"stretch";s:10:"image_size";N;s:18:"image_imageOpacity";N;s:16:"small_image_size";N;s:24:"small_image_imageOpacity";N;s:14:"thumbnail_size";N;s:22:"thumbnail_imageOpacity";N;s:17:"swatch_image_size";N;s:25:"swatch_image_imageOpacity";N;}s:5:"email";a:5:{s:15:"header_template";s:28:"design_email_header_template";s:15:"footer_template";s:28:"design_email_footer_template";s:8:"logo_alt";N;s:10:"logo_width";N;s:11:"logo_height";N;}s:5:"theme";a:1:{s:8:"theme_id";s:1:"4";}}s:3:"dev";a:10:{s:5:"debug";a:1:{s:8:"profiler";s:1:"0";}s:2:"js";a:6:{s:11:"merge_files";s:1:"0";s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
                     /tiny_mce/
                 ";s:23:"session_storage_logging";s:1:"0";s:19:"session_storage_key";s:16:"collected_errors";s:18:"translate_strategy";s:10:"dictionary";}s:3:"css";a:2:{s:12:"minify_files";s:1:"0";s:14:"minify_exclude";s:48:"
                     /tiny_mce/

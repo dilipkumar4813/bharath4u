@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504014582;s:6:"expire";i:9999999999;s:4:"tags";s:55:"792_ADMIN_1COLUMN,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504859682;s:6:"expire";i:9999999999;s:4:"tags";s:55:"792_ADMIN_1COLUMN,792_LAYOUT_GENERAL_CACHE_TAG,792_MAGE";}
 <container name="root">
    <container name="backend.page">
       <container name="after.body.start" as="after.body.start" label="Page Top" before="-"/>

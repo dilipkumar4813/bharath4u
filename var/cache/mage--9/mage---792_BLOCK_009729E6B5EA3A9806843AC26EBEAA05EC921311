@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504069307;s:6:"expire";i:1504072907;s:4:"tags";s:159:"792_BLOCK_HTML,792_CATALOG_CATEGORY,792_CATALOG_CATEGORY_3,792_CATALOG_CATEGORY_4,792_CATALOG_CATEGORY_5,792_CATALOG_CATEGORY_6,792_CATALOG_CATEGORY_7,792_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1507937706;s:6:"expire";i:1507941306;s:4:"tags";s:182:"792_BLOCK_HTML,792_CATALOG_CATEGORY,792_CATALOG_CATEGORY_3,792_CATALOG_CATEGORY_8,792_CATALOG_CATEGORY_4,792_CATALOG_CATEGORY_5,792_CATALOG_CATEGORY_7,792_CATALOG_CATEGORY_6,792_MAGE";}
 
 <nav class="navigation" role="navigation">
     <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
@@ -7,5 +7,5 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1504069307;s:6:"expire";i:1504072907;s:4:"t
                     Home
                 </a>
             </li>
-                <li  class="level0 nav-1 first level-top"><a href="http://bharath4u.com/t-shirts.html"  class="level-top" ><span>T-Shirts</span></a></li><li  class="level0 nav-2 level-top"><a href="http://bharath4u.com/pop-up-cards.html"  class="level-top" ><span>Pop Up Cards</span></a></li><li  class="level0 nav-3 level-top"><a href="http://bharath4u.com/key-chains.html"  class="level-top" ><span>Key chains</span></a></li><li  class="level0 nav-4 level-top"><a href="http://bharath4u.com/3d-models.html"  class="level-top" ><span>3D Models</span></a></li><li  class="level0 nav-5 last level-top"><a href="http://bharath4u.com/mugs.html"  class="level-top" ><span>Mugs</span></a></li>    </ul>
+                <li  class="level0 nav-1 first level-top"><a href="http://bharath4u.com/t-shirts.html"  class="level-top" ><span>T-Shirts</span></a></li><li  class="level0 nav-2 level-top"><a href="http://bharath4u.com/earrings.html"  class="level-top" ><span>Earrings</span></a></li><li  class="level0 nav-3 level-top"><a href="http://bharath4u.com/pop-up-cards.html"  class="level-top" ><span>Pop Up Cards</span></a></li><li  class="level0 nav-4 level-top"><a href="http://bharath4u.com/key-chains.html"  class="level-top" ><span>Key chains</span></a></li><li  class="level0 nav-5 level-top"><a href="http://bharath4u.com/mugs.html"  class="level-top" ><span>Mugs</span></a></li><li  class="level0 nav-6 last level-top"><a href="http://bharath4u.com/3d-models.html"  class="level-top" ><span>3D Models</span></a></li>    </ul>
 </nav>
